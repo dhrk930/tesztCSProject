@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainPage"
+    android:background="@drawable/android_background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:drawableBottom="@drawable/baseline_school_24"
+        android:fontFamily="casual"
+        android:rotationX="-20"
+        android:text="Teszt!"
+        android:textColor="@color/black"
+        android:textSize="55dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/asap"
+        android:text="Grade 10 Curriculum"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="198dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/asap"
+        android:text="Created By Dhruv K.\nAlpha Version 1.0\n2023-04-20\nBest Suited for Android 13.0\nOptimized for Pixel 6 Pro"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

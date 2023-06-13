@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainPage"
+    android:background="@drawable/android_background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Teszt!"
+        android:rotationX="-20"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:fontFamily="casual"
+        android:drawableBottom="@drawable/baseline_school_24"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="Great work!"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/asap"/>
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="100dp"
+        android:text="Home"
+        android:fontFamily="@font/asap"
+        android:textAllCaps="false"
+        android:background="@drawable/new_button_design"/>
+
+    <Button
+        android:id="@+id/feedbackButton"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/asap"
+        android:text="More Thorough Feedback"
+        android:textAllCaps="false"
+        android:background="@drawable/new_button_design"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_marginTop="340dp"
+        android:text="TextView"
+        android:fontFamily="@font/asap"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/feedbackView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_marginTop="540dp"
+        android:text="TextView"
+        android:fontFamily="@font/asap"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

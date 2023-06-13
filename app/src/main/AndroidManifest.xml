@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Teszt"
+        tools:targetApi="31">
+        <activity
+            android:name=".mathFeedbackPage6"
+            android:exported="false" />
+        <activity
+            android:name=".testRecap6"
+            android:exported="false" />
+        <activity
+            android:name=".testQuestioningPage6"
+            android:exported="false" />
+        <activity
+            android:name=".mathTest6"
+            android:exported="false" />
+        <activity
+            android:name=".scienceFeedbackPage3"
+            android:exported="false" />
+        <activity
+            android:name=".scienceFeedbackPage2"
+            android:exported="false" />
+        <activity
+            android:name=".scienceFeedbackPage"
+            android:exported="false" />
+        <activity
+            android:name=".mathFeedbackPage5"
+            android:exported="false" />
+        <activity
+            android:name=".mathFeedbackPage4"
+            android:exported="false" />
+        <activity
+            android:name=".mathFeedbackPage3"
+            android:exported="false" />
+        <activity
+            android:name=".mathFeedbackPage2"
+            android:exported="false" />
+        <activity
+            android:name=".mathFeedbackPage"
+            android:exported="false" />
+        <activity
+            android:name=".scienceTestRecap3"
+            android:exported="false" />
+        <activity
+            android:name=".scienceTestRecap2"
+            android:exported="false" />
+        <activity
+            android:name=".scienceTestRecap"
+            android:exported="false" />
+        <activity
+            android:name=".scienceTestQuestioningPage3"
+            android:exported="false" />
+        <activity
+            android:name=".scienceTestQuestioningPage2"
+            android:exported="false" />
+        <activity
+            android:name=".scienceTestQuestioningPage"
+            android:exported="false" />
+        <activity
+            android:name=".performanceRecapPage"
+            android:exported="false" />
+        <activity
+            android:name=".testRecap5"
+            android:exported="false" />
+        <activity
+            android:name=".testRecap4"
+            android:exported="false" />
+        <activity
+            android:name=".testRecap3"
+            android:exported="false" />
+        <activity
+            android:name=".testRecap2"
+            android:exported="false" />
+        <activity
+            android:name=".testQuestioningPage5"
+            android:exported="false" />
+        <activity
+            android:name=".testQuestioningPage4"
+            android:exported="false" />
+        <activity
+            android:name=".testQuestioningPage3"
+            android:exported="false" />
+        <activity
+            android:name=".testQuestioningPage2"
+            android:exported="false" />
+        <activity
+            android:name=".testRecap"
+            android:exported="false" />
+        <activity
+            android:name=".testQuestioningPage"
+            android:exported="false" />
+        <activity
+            android:name=".appInfoPage"
+            android:exported="false" />
+        <activity
+            android:name=".scienceTest3"
+            android:exported="false" />
+        <activity
+            android:name=".scienceTest2"
+            android:exported="false" />
+        <activity
+            android:name=".mathTest5"
+            android:exported="false" />
+        <activity
+            android:name=".mathTest4"
+            android:exported="false" />
+        <activity
+            android:name=".mathTest3"
+            android:exported="false" />
+        <activity
+            android:name=".mathTest2"
+            android:exported="false" />
+        <activity
+            android:name=".scienceTest1"
+            android:exported="false" />
+        <activity
+            android:name=".mathTest1"
+            android:exported="false" />
+        <activity
+            android:name=".settingsPage"
+            android:exported="false" />
+        <activity
+            android:name=".sciencePage"
+            android:exported="false" />
+        <activity
+            android:name=".mathPage"
+            android:exported="false" />
+        <activity
+            android:name=".mainPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
